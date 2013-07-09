@@ -25,9 +25,10 @@ public class Client {
 				public static JLabel top = new JLabel();
 				public static JPanel PLAFContainer = new JPanel();
 					public static String[] themeNames;
-					public static JComboBox themeChooser;
+					public static JComboBox<?> themeChooser;
 			
 			public static JPanel userList = new JPanel();
+				@SuppressWarnings("rawtypes")
 				public static JList userOnlineList = new JList();
 					public static JScrollPane listScroll = new JScrollPane();
 				public static JButton submit = new JButton();
@@ -97,12 +98,13 @@ public class Client {
 	
 	
 	
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void ConfigureMainWindow(){
 		
 		
 		//setting MainWindow
 		mainWindow.setContentPane(gui);
-		//mainWindow.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+		mainWindow.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		mainWindow.setMinimumSize(new Dimension(500,300));
 		mainWindow.pack();
 		mainWindow.setLocationRelativeTo(null);
