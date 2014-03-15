@@ -21,15 +21,15 @@
 >**NOTE:** Since no database is used in Server Side. Hence whenever we restart the app, no previous chat is show on the Client Side.
 
 ##Team Members
-*Laveena*
-*Poonam Kaundal*
-*Rahul Jain*
+*Laveena*  
+*Poonam Kaundal*  
+*Rahul Jain*  
 *Reet Awwsum*
 
 ##Platform
 
-Coded in Linux, Mac OSX, Windows 7
-Compiled in Mac OSX
-Checked on Linux, Mac OSX, Windows 7
+Coded in Linux, Mac OSX, Windows 7  
+Compiled in Mac OSX  
+Checked on Linux, Mac OSX, Windows 7  
 
 >**NOTE:** Currently working on localhost (127.0.0.1)
