@@ -1,4 +1,4 @@
-#ChatRoom (6 Weeks Core Java Project)
+#Java IRC-like ChatRoom
 
 ##Features
 * Group Chat
@@ -19,12 +19,6 @@
 **Client GUI** : Firstly there is a dialog box prompting for the username. After you entered your username main Client GUI get connected with the Server showing Online Status. Client GUI consists of GUI Theme Changer(Upper Right Hand Corner), Clients Online, Chat History. Message written in the message input area is send to all clients and shown in the chat history along with the sender's client name. In order to do Private Chat, double click on the Client to whom you want to do private chat.   
 
 >**NOTE:** Since no database is used in Server Side. Hence whenever we restart the app, no previous chat is show on the Client Side.
-
-##Team Members
-*Laveena*  
-*Poonam Kaundal*  
-*Rahul Jain*  
-*Reet Awwsum*
 
 ##Platform
 
